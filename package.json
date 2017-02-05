@@ -1,0 +1,14 @@
+{
+  "name":"pomodoro",
+  "main":"index.html",
+  "window":{
+    "show": true,
+    "icon" : "resources/tomato@16.png",
+    // "show_in_taskbar": true,
+    "width":280,
+    "height":340,
+    "max_width":280,
+    "max_height":340,
+    "toolbar":false
+  }
+}

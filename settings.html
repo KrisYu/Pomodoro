@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Settings</title>
+
+    <style type="text/css">
+    body{
+      font-family: sans-serif;
+    }
+    .textfield{
+      float: right;
+      width: 80px;
+      margin-right: 10px;
+    }
+    </style>
+
+
+  </head>
+  <body>
+      <p>Work interval <input type="text" class="textfield" id="pomodoroTime" ><br></p>
+      <p>Short break <input type="text" class="textfield" id="breakTime"><br></p>
+      <p>Long break <input type="text" class="textfield" id="longBreakTime"><br></p>
+      <p>Long break after <input type="text" class="textfield" id="longBreakCnt"><br></p>
+      <p>Target  <input type="text" class="textfield" id="target"><br></p>
+
+      <p>Interval completed Sound<input type="checkbox" class="textfield" id="sound"></p>
+      <p>Completion notifications<input type="checkbox" class="textfield" id="notification"></p>
+      <p>Continous pomodoro<input type="checkbox" class="textfield" id="continous"></p>
+      <br>
+      <hr>
+      <p>Start Timer <span class="textfield">Ctrl + S</span></p>
+      <p>Pause Timer <span class="textfield">Ctrl + P</p>
+
+
+     <script src="js/settings.js"></script>
+
+
+  </body>
+</html>
